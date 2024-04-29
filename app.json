@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Calc",
+    "slug": "calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3a4764"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#3a4764"
+      },
+      "package": "com.lextechspec.calculator"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "035b8c0e-f662-42b0-a940-e68d30547346"
+      }
+    },
+    "owner": "lextechspec"
+  }
+}
